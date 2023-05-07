@@ -1,12 +1,8 @@
 import turtle
 
+turtle.speed(1)
+turtle.width(3)
 
-t = turtle.Turtle()
-
-for i in range(4):
-    t.forward(100)
-    t.left(90)
-
-t.hideturtle()
+turtle.forward(200)
 
 turtle.done()
